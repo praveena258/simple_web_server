@@ -6,8 +6,7 @@ content="""
     <title>Top Software Industries</title>
 </head>
 <body>
-
-     <table border="2" cellpadding="6">
+    <table border="2" cellpadding="6">
         <caption style="font-size: x-large;">LAPTOP SPECIFICATTION</caption>
         <TR>
             <th>S.NO</th>
