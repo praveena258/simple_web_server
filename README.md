@@ -21,16 +21,16 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
-'''from django.shortcuts import render
+'''
+from django.shortcuts import render
 from http.server import HTTPServer,BaseHTTPRequestHandler
-content='''
+content="""
 <html lang="en">
 <head>
     <title>Top Software Industries</title>
 </head>
 <body>
-
-     <table border="2" cellpadding="6">
+   <table border="2" cellpadding="6">
         <caption style="font-size: x-large;">LAPTOP SPECIFICATTION</caption>
         <TR>
             <th>S.NO</th>
@@ -65,7 +65,7 @@ content='''
      </table> 
 </body>
 </html>
-'''
+"""
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         print("Get request received...")
