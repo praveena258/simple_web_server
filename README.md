@@ -21,15 +21,14 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
-'''from http.server import HTTPServer,BaseHTTPRequestHandler
+```from http.server import HTTPServer,BaseHTTPRequestHandler
 content='''
 <html lang="en">
 <head>
     <title>lap specs.</title>
 </head>
 <body>
-
-     <table border="3" cellpadding="10">
+       <table border="3" cellpadding="10">
         <caption style="font-size: x-large;">LAPTOP SPECIFICATTION</caption>
         <TR>
             <TD>BRAND</TD>
@@ -77,3 +76,4 @@ httpd.serve_forever()'''
 ![alt text](<Screenshot 2025-03-24 175232.png>)
 # RESULT:
 The program for implementing simple webserver is executed successfully.
+```
